@@ -325,26 +325,23 @@ section.hero {
   background: #F8F8F8;
 }
 
-.section.cart amount {
+.section.cart.amount {
   color: #FE5F1E;
 }
 
-.section.login {
+section.login {
   background: #F8F8F8;
   min-height: calc(100vh-86px);
-}
-.section.login a {
-  color: #FE5F1E;
-}
-.section.login a:hover {
-  background: #b23301;
+  /*a {
+      color: $primary;
+      &:hover {
+          background: $primary-hover;
+      }
+  }*/
 }
 
 section.login a {
   color: #FE5F1E;
-}
-section.login a:hover {
-  background: #b23301;
 }
 
 .noty_theme__mint {
